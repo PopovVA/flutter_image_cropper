@@ -83,7 +83,7 @@
           cropViewController.aspectRatioLockEnabled = YES;
       }
       
-      [_viewController presentViewController:cropViewController animated:YES completion:nil];
+      [_viewController presentViewController:cropViewController animated:false completion:nil];
   } else {
       result(FlutterMethodNotImplemented);
   }
